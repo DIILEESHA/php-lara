@@ -38,7 +38,7 @@
                                 <div class="columner">
                                     <button onclick="toggleEditForm()">Edit</button>
                                     <div class="lino"></div>
-                                    <form id="deleteForm" action="/cloths/{{ $cloth->id }}" method="POST">
+                                    <form class="moha" id="deleteForm" action="/cloths/{{ $cloth->id }}" method="POST">
                                         @csrf
                                         @method('DELETE')
                                         <button type="button" onclick="confirmDelete()">Delete</button>

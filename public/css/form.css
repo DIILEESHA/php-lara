@@ -9,6 +9,7 @@
     background-color: rgba(0, 0, 0, 0.4);
     height: 100%;
     width: 100%;
+    z-index: 1000;
     inset: 0;
     display: flex;
     position: fixed;
@@ -88,4 +89,21 @@
     border-radius: 5px;
     padding: 10px 0;
     border: none;
+}
+
+
+@media screen and (max-width:1075px){
+  .form_contain{
+    width: fit-content;
+    z-index: 1000;
+    position: relative;
+  }
+}
+
+
+@media screen and (max-width:400px){
+    .form_contain{
+        height:100vh;
+        width: 100%;
+    }
 }

@@ -4,7 +4,7 @@
 .cloth_card_grid {
     padding: 80px 50px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
 }
 
@@ -62,4 +62,16 @@
 .imger img {
     width: 100%;
     object-fit: cover;
+}
+
+@media screen and (max-width:500px){
+    .cloth_card_grid {
+    grid-template-columns:1fr;
+    padding: 40px 20px;
+
+    }
+
+    .mini_cloth{
+        padding: 10px;
+    }
 }

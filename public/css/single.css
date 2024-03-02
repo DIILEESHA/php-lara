@@ -1,7 +1,8 @@
 .single_card {
     display: grid;
     padding: 40px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
     gap: 2rem;
     font-family: "Urbanist", sans-serif;
 }
@@ -96,11 +97,14 @@
     border: none;
     background: transparent;
 }
+
+.moha{
+    text-align: center;
+}
 .options-menu {
     position: absolute;
     right: 0;
     padding: 40px;
-    background-color: #fff;
     z-index: 10;
     margin-top: 120px;
 
@@ -108,4 +112,31 @@
 
     display: flex;
     flex-direction: column;
+}
+
+
+@media screen and (max-width:500px){
+    .single_card{
+        padding: 20px;
+    }
+    .options-menu{
+        padding: 20px;
+        width: 50%;
+    }
+
+    .closers img{
+        padding: 10px;
+    }
+
+    .single_img,.single_imger{
+        height: 60vh;
+    }
+}
+
+
+@media screen and (max-width:390px){
+    .single_card{
+    grid-template-columns:1fr;
+
+    }
 }
