@@ -1,0 +1,111 @@
+.single_card {
+    display: grid;
+    padding: 40px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    font-family: "Urbanist", sans-serif;
+}
+
+.single_imger {
+    position: relative;
+    height: 90vh;
+
+    border-radius: 10px;
+    border: 1px solid #e0d8d8;
+}
+
+.closers {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+}
+
+.closers img {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #333;
+    border-radius: 50%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    object-fit: cover;
+    justify-content: center;
+    cursor: pointer;
+}
+.single_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+.single_name {
+    font-size: 20px;
+    color: #333;
+    text-transform: capitalize;
+}
+
+.liner {
+    margin: 10px 0;
+    width: 100%;
+    height: 1px;
+    background-color: #e4e1e1;
+}
+
+.single_para {
+    font-size: 15px;
+    line-height: 150%;
+    color: #333;
+    opacity: 90%;
+}
+
+.con {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.con i {
+    cursor: pointer;
+    z-index: 100;
+}
+
+.columner {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: 1px solid #dad4d4;
+    border-radius: 5px;
+    padding: 10px;
+
+    background-color: #fff;
+}
+
+.lino {
+    width: 100%;
+    margin: 5px 0;
+    background-color: #e8e2e2;
+    height: 1px;
+    z-index: 100;
+}
+
+.columner button {
+    cursor: pointer;
+    z-index: 10;
+    border: none;
+    background: transparent;
+}
+.options-menu {
+    position: absolute;
+    right: 0;
+    padding: 40px;
+    background-color: #fff;
+    z-index: 10;
+    margin-top: 120px;
+
+    width: 20%;
+
+    display: flex;
+    flex-direction: column;
+}

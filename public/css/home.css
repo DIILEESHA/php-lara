@@ -1,0 +1,65 @@
+.cloth_container {
+}
+
+.cloth_card_grid {
+    padding: 80px 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.no_data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.no_data img {
+    mix-blend-mode: color-burn;
+}
+
+.mini_cloth {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+        rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 5px;
+    padding: 20px;
+    width: 100%;
+    color: inherit;
+    text-decoration: none;
+}
+
+.mini_cloth .imger img {
+    height: 40vh;
+    width: 100%;
+}
+
+.cloth_name {
+    font-size: 15px;
+    font-weight: 900;
+    color: #333;
+    line-height: 150%;
+}
+
+.combiner {
+}
+
+.date {
+    font-size: 14px;
+    color: #333;
+    opacity: 90%;
+    line-height: 150%;
+}
+
+.cloth_para {
+    font-size: 15px;
+    line-height: 150%;
+    color: #333;
+    opacity: 80%;
+}
+
+.imger img {
+    width: 100%;
+    object-fit: cover;
+}
