@@ -12,7 +12,7 @@ https://github.com/DIILEESHA/php-lara/assets/89340276/a8a9c29d-0db3-4ee1-a339-06
 
   ## How to Run Locally
 
-1. Clone the repository: `git clone https://github.com/yourusername/your-project.git`
+1. Clone the repository: `git clone https://github.com/DIILEESHA/php-lara.git`
 2. Install dependencies: `composer install`
 3. Set up your environment variables: Rename `.env.example` to `.env` and update the database configuration.
 4. Generate application key: `php artisan key:generate`
