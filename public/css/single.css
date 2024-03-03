@@ -115,6 +115,13 @@
 }
 
 
+@media screen and (max-width:1075px){
+    .options-menu{
+        width: 30%;
+    }
+}
+
+
 @media screen and (max-width:500px){
     .single_card{
         padding: 20px;
@@ -122,6 +129,7 @@
     .options-menu{
         padding: 20px;
         width: 50%;
+
     }
 
     .closers img{
